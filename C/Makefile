@@ -1,7 +1,7 @@
-EXECUTABLES = ex10
+EXECUTABLES = ex10 ex11 ex12
 
-all: ${EXECUTABLES}
-
+all: $(EXECUTABLES)
+	
 clean:
-	rm -f ${EXECUTABLES}
+	rm -f $(EXECUTABLES)
 
